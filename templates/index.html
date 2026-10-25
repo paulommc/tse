@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSE 2026 - Apuração Presidencial & Projeções em Tempo Real</title>
+  <meta name="description" content="Dashboard completo de apuração presidencial do TSE 2026. Acompanhe votos por estado, região, comparação com 1º turno e projeção matemática com simulador em tempo real.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="theme-crimson-black">
+
+  <!-- TOP HEADER / COMMAND CENTER BAR -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="brand-badge">
+          <i class="fa-solid fa-check-to-slot"></i>
+        </div>
+        <div class="brand-text">
+          <h1>APURAÇÃO PRESIDENCIAL 2026 <span>2º TURNO</span></h1>
+          <p class="subtitle">Tribunal Superior Eleitoral &bull; Central de Totalização e Projeções</p>
+        </div>
+      </div>
+
+      <div class="header-center-info">
+        <div class="live-status-pill" id="live-indicator">
+          <span class="pulse-dot"></span>
+          <span id="live-status-text">MODO SIMULAÇÃO ATIVO</span>
+        </div>
+        <div class="timestamp-pill">
+          <i class="fa-regular fa-clock"></i>
+          <span id="server-time">--:--:--</span>
+          <span class="badge-sub" id="tse-update-time">TSE: Aguardando</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- MODE SWITCHER -->
+        <div class="mode-switcher-container">
+          <button id="btn-mode-sim" class="mode-btn active" onclick="switchMode('simulation')">
+            <i class="fa-solid fa-sliders"></i> Simulação 2ºT
+          </button>
+          <button id="btn-mode-live" class="mode-btn" onclick="switchMode('live')">
+            <i class="fa-solid fa-satellite-dish"></i> Ao Vivo (TSE)
+          </button>
+        </div>
+
+        <button id="btn-open-settings" class="icon-btn" title="Configurações do TSE" onclick="openSettingsModal()">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIMULATION CONTROL SCRUBBER (VISIBLE IN SIMULATION MODE) -->
+  <section class="simulation-banner" id="sim-control-panel">
+    <div class="sim-container">
+      <div class="sim-header">
+        <div class="sim-title">
+          <i class="fa-solid fa-play"></i>
+          <span>Simulador de Apuração (Base Oficial do 1º Turno 2026)</span>
+        </div>
+        <div class="sim-stats">
+          <span>Progresso da Apuração: <strong id="sim-progress-display">50.0%</strong></span>
+          <span class="est-hour" id="sim-est-time">Horário estimado: 18:35</span>
+        </div>
+      </div>
+
+      <div class="sim-scrubber-row">
+        <button id="btn-sim-play" class="btn-play" onclick="toggleSimPlay()">
+          <i class="fa-solid fa-play" id="sim-play-icon"></i>
+        </button>
+
+        <div class="slider-wrapper">
+          <input type="range" id="sim-slider" min="0" max="100" step="0.5" value="50" oninput="onSimSliderInput(this.value)">
+          <div class="slider-ticks">
+            <span style="left: 0%">17:00 (Início)</span>
+            <span style="left: 25%">17:45 (25%)</span>
+            <span style="left: 50%">18:35 (50%)</span>
+            <span style="left: 75%">19:20 (75%)</span>
+            <span style="left: 100%">20:30 (100%)</span>
+          </div>
+        </div>
+
+        <div class="speed-selector">
+          <span class="label">Velocidade:</span>
+          <button class="spd-btn active" onclick="setSimSpeed(1, this)">1x</button>
+          <button class="spd-btn" onclick="setSimSpeed(2, this)">2x</button>
+          <button class="spd-btn" onclick="setSimSpeed(5, this)">5x</button>
+        </div>
+      </div>
+
+      <div class="sim-presets-row">
+        <span class="preset-label">Pontos Notáveis:</span>
+        <button class="preset-pill" onclick="jumpSim(5)">Início (5%)</button>
+        <button class="preset-pill" onclick="jumpSim(25)">Parcial 1 (25%)</button>
+        <button class="preset-pill" onclick="jumpSim(50)">Metade (50%)</button>
+        <button class="preset-pill" onclick="jumpSim(75)">Ponto Crítico (75%)</button>
+        <button class="preset-pill" onclick="jumpSim(100)">Resultado Final (100%)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN DASHBOARD CONTENT -->
+  <main class="dashboard-main">
+
+    <!-- 1. HERO SCOREBOARD: CANDIDATE DUEL -->
+    <section class="hero-scoreboard">
+      
+      <!-- CANDIDATE 13 (LULA) -->
+      <div class="candidate-card cand-13" id="card-cand-13">
+        <div class="card-glow"></div>
+        <div class="cand-badge">PT &bull; 13</div>
+        <div class="cand-profile">
+          <div class="cand-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <div class="cand-names">
+            <h2>LULA</h2>
+            <p>LUIZ INÁCIO LULA DA SILVA</p>
+          </div>
+        </div>
+
+        <div class="vote-metrics">
+          <div class="percentage-box">
+            <span class="percent-val" id="cand13-pct">0.00%</span>
+            <span class="swing-tag positive" id="cand13-swing">
+              <i class="fa-solid fa-arrow-trend-up"></i> +0.00 p.p. vs 1ºT
+            </span>
+          </div>
+          <div class="absolute-votes-box">
+            <span class="votes-num" id="cand13-votes">0</span>
+            <span class="votes-label">votos apurados válidos</span>
+          </div>
+        </div>
+
+        <div class="candidate-projection-subcard">
+          <div class="proj-header">
+            <span><i class="fa-solid fa-chart-line"></i> Projeção Final Estimada</span>
+            <strong id="cand13-proj-pct">0.00%</strong>
+          </div>
+          <div class="proj-votes-sub">
+            <span id="cand13-proj-votes">0 votos projetados</span>
+            <span class="badge-needed" id="cand13-needed">Precisa de 0% dos votos restantes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CENTER GAUGE & TOTALIZER -->
+      <div class="center-totalizer">
+        <div class="secoes-gauge-container">
+          <div class="gauge-ring">
+            <svg viewBox="0 0 120 120" class="circular-chart">
+              <path class="circle-bg"
+                d="M18 2.0845 a 45 45 0 0 1 84 0" />
+              <path class="circle" id="secoes-circle"
+                stroke-dasharray="0, 100"
+                d="M18 2.0845 a 45 45 0 0 1 84 0" />
+            </svg>
+            <div class="gauge-center-content">
+              <span class="gauge-num" id="secoes-pct">0.00%</span>
+              <span class="gauge-desc">SEÇÕES APURADAS</span>
+              <span class="gauge-sub" id="secoes-count">0 / 499.248</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIFFERENCE INDICATOR -->
+        <div class="diff-card" id="diff-indicator-card">
+          <span class="diff-title">VANTAGEM ATUAL</span>
+          <div class="diff-val-box">
+            <strong id="diff-leader-name">LIDERANÇA</strong>
+            <span class="diff-votes" id="diff-votes-num">+0 votos</span>
+          </div>
+          <span class="diff-sub" id="diff-pct-num">Diferença: 0.00%</span>
+        </div>
+
+        <!-- BALLOT TOTALS MINI GRID -->
+        <div class="ballot-stats-grid">
+          <div class="stat-cell">
+            <span class="cell-label">Votos Válidos</span>
+            <strong id="stat-votos-validos">0</strong>
+          </div>
+          <div class="stat-cell">
+            <span class="cell-label">Total Apurado</span>
+            <strong id="stat-votos-totais">0</strong>
+          </div>
+          <div class="stat-cell">
+            <span class="cell-label">Brancos & Nulos</span>
+            <strong id="stat-brancos-nulos">0</strong>
+          </div>
+          <div class="stat-cell">
+            <span class="cell-label">Votos Faltando</span>
+            <strong id="stat-votos-faltando">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- CANDIDATE 22 (FLÁVIO BOLSONARO) -->
+      <div class="candidate-card cand-22" id="card-cand-22">
+        <div class="card-glow"></div>
+        <div class="cand-badge">PL &bull; 22</div>
+        <div class="cand-profile">
+          <div class="cand-avatar">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+          <div class="cand-names">
+            <h2>FLÁVIO BOLSONARO</h2>
+            <p>FLÁVIO NANTES BOLSONARO</p>
+          </div>
+        </div>
+
+        <div class="vote-metrics">
+          <div class="percentage-box">
+            <span class="percent-val" id="cand22-pct">0.00%</span>
+            <span class="swing-tag positive" id="cand22-swing">
+              <i class="fa-solid fa-arrow-trend-up"></i> +0.00 p.p. vs 1ºT
+            </span>
+          </div>
+          <div class="absolute-votes-box">
+            <span class="votes-num" id="cand22-votes">0</span>
+            <span class="votes-label">votos apurados válidos</span>
+          </div>
+        </div>
+
+        <div class="candidate-projection-subcard">
+          <div class="proj-header">
+            <span><i class="fa-solid fa-chart-line"></i> Projeção Final Estimada</span>
+            <strong id="cand22-proj-pct">0.00%</strong>
+          </div>
+          <div class="proj-votes-sub">
+            <span id="cand22-proj-votes">0 votos projetados</span>
+            <span class="badge-needed" id="cand22-needed">Precisa de 0% dos votos restantes</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TUG-OF-WAR PROGRESS BAR -->
+    <section class="tug-of-war-section">
+      <div class="tow-labels">
+        <span class="tow-cand13"><i class="fa-solid fa-circle"></i> Lula: <strong id="tow-p13">0.00%</strong></span>
+        <span class="tow-50-marker"><i class="fa-solid fa-flag-checkered"></i> 50% MAIORIA</span>
+        <span class="tow-cand22"><strong id="tow-p22">0.00%</strong> :Flávio Bolsonaro <i class="fa-solid fa-circle"></i></span>
+      </div>
+      <div class="tow-bar-container">
+        <div class="tow-bar-13" id="tow-bar-13" style="width: 50%"></div>
+        <div class="tow-marker-50"></div>
+        <div class="tow-bar-22" id="tow-bar-22" style="width: 50%"></div>
+      </div>
+    </section>
+
+    <!-- 2. PROJECTION & SIMULATOR ENGINE (FEATURED TOOL) -->
+    <section class="projection-panel">
+      <div class="panel-header">
+        <div class="title-with-icon">
+          <div class="icon-circle"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div>
+            <h3>FERRAMENTA DE PROJEÇÃO E ESTIMATIVA DE RESULTADO FINAL</h3>
+            <p>Modelo estatístico baseado no Swing Real por Estado, Ritmo de Apuração e Dinâmica do 1º Turno</p>
+          </div>
+        </div>
+        <div class="projection-outcome-badge" id="proj-outcome-banner">
+          <span class="outcome-label">Vencedor Estimado:</span>
+          <strong id="proj-winner-name">CALCULANDO...</strong>
+          <span class="outcome-pct" id="proj-winner-pct">0.00%</span>
+        </div>
+      </div>
+
+      <div class="projection-grid">
+        <!-- PROJECTION STATS BOX -->
+        <div class="proj-stat-card">
+          <h4><i class="fa-solid fa-calculator"></i> Projeção Matemática Consolidada</h4>
+          <div class="proj-duel-row">
+            <div class="p-duel-item cand-13-color">
+              <span class="name">Lula (13)</span>
+              <strong class="val" id="proj-box-13-pct">0.00%</strong>
+              <span class="sub" id="proj-box-13-votes">0 votos</span>
+            </div>
+            <div class="p-duel-vs">X</div>
+            <div class="p-duel-item cand-22-color">
+              <span class="name">Flávio (22)</span>
+              <strong class="val" id="proj-box-22-pct">0.00%</strong>
+              <span class="sub" id="proj-box-22-votes">0 votos</span>
+            </div>
+          </div>
+          
+          <div class="math-status-box" id="math-status-banner">
+            <i class="fa-solid fa-circle-info"></i>
+            <span id="math-status-text">Apuração em andamento. Extrapolação dos votos não apurados por estado.</span>
+          </div>
+        </div>
+
+        <!-- MATHEMATICAL VICTORY THRESHOLD ("O QUE FALTA PARA VENCER") -->
+        <div class="proj-stat-card">
+          <h4><i class="fa-solid fa-bullseye"></i> O Que Falta Para a Vitória Matemática</h4>
+          <p class="card-desc">Percentual de votos restantes que cada candidato precisa obter nas urnas pendentes para atingir 50% + 1:</p>
+          
+          <div class="threshold-bars">
+            <div class="thresh-item">
+              <div class="th-label">
+                <span>Lula (13)</span>
+                <strong id="thresh-p13">0.0% dos votos restantes</strong>
+              </div>
+              <div class="th-progress-bg">
+                <div class="th-progress-fill cand-13-bg" id="thresh-bar-13" style="width: 50%"></div>
+              </div>
+              <span class="th-sub" id="thresh-votes-13">Faltam 0 votos para garantir</span>
+            </div>
+
+            <div class="thresh-item">
+              <div class="th-label">
+                <span>Flávio Bolsonaro (22)</span>
+                <strong id="thresh-p22">0.0% dos votos restantes</strong>
+              </div>
+              <div class="th-progress-bg">
+                <div class="th-progress-fill cand-22-bg" id="thresh-bar-22" style="width: 50%"></div>
+              </div>
+              <span class="th-sub" id="thresh-votes-22">Faltam 0 votos para garantir</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INTERACTIVE SIMULATOR DRAWER (ACCORDION) -->
+      <div class="simulator-drawer">
+        <button class="drawer-toggle-btn" onclick="toggleSimDrawer()">
+          <span><i class="fa-solid fa-sliders"></i> <strong>Ajustar Parâmetros do Simulador Interativo</strong> (Migração de Votos da 3ª Via & Swing Regional)</span>
+          <i class="fa-solid fa-chevron-down" id="drawer-chevron"></i>
+        </button>
+
+        <div class="drawer-body" id="sim-drawer-body">
+          <div class="sim-sliders-grid">
+            
+            <!-- SLIDER: 3RD PARTY MIGRATION TO 13 -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Migração de Outros Candidatos do 1ºT &rarr; Lula (13)</label>
+                <strong id="val-migr-13">42%</strong>
+              </div>
+              <input type="range" id="slider-migr-13" min="0" max="100" value="42" oninput="onSimParamChange()">
+              <p class="sl-hint">Percentual dos votos de Cury, Renan Santos, Caiado, Zema e outros que vão para Lula.</p>
+            </div>
+
+            <!-- SLIDER: 3RD PARTY MIGRATION TO 22 -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Migração de Outros Candidatos do 1ºT &rarr; Flávio (22)</label>
+                <strong id="val-migr-22">48%</strong>
+              </div>
+              <input type="range" id="slider-migr-22" min="0" max="100" value="48" oninput="onSimParamChange()">
+              <p class="sl-hint">Percentual dos votos de 3ª via que migram para Flávio Bolsonaro.</p>
+            </div>
+
+            <!-- SLIDER: TURNOUT VARIATION -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Variação de Comparecimento / Votos Válidos vs 1ºT</label>
+                <strong id="val-turnout">0.0%</strong>
+              </div>
+              <input type="range" id="slider-turnout" min="-5" max="5" step="0.5" value="0" oninput="onSimParamChange()">
+              <p class="sl-hint">Ajusta o total de eleitores que comparecem às urnas no 2º turno.</p>
+            </div>
+
+            <!-- SLIDER: REGIONAL BIAS NORDESTE -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Ajuste de Força no Nordeste</label>
+                <strong id="val-bias-ne">0%</strong>
+              </div>
+              <input type="range" id="slider-bias-ne" min="-5" max="5" step="0.5" value="0" oninput="onSimParamChange()">
+              <p class="sl-hint">Desvio positivo favorece Lula; negativo favorece Flávio.</p>
+            </div>
+
+            <!-- SLIDER: REGIONAL BIAS SUDESTE -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Ajuste de Força no Sudeste (SP, MG, RJ, ES)</label>
+                <strong id="val-bias-se">0%</strong>
+              </div>
+              <input type="range" id="slider-bias-se" min="-5" max="5" step="0.5" value="0" oninput="onSimParamChange()">
+              <p class="sl-hint">Impacto direto nos 4 maiores colégios eleitorais do país.</p>
+            </div>
+
+            <!-- SLIDER: REGIONAL BIAS SUL -->
+            <div class="sim-slider-card">
+              <div class="sl-header">
+                <label>Ajuste de Força no Sul (PR, RS, SC)</label>
+                <strong id="val-bias-s">0%</strong>
+              </div>
+              <input type="range" id="slider-bias-s" min="-5" max="5" step="0.5" value="0" oninput="onSimParamChange()">
+              <p class="sl-hint">Ajuste de intensidade na região Sul.</p>
+            </div>
+
+          </div>
+
+          <div class="drawer-footer">
+            <button class="btn-secondary" onclick="resetSimParams()">
+              <i class="fa-solid fa-rotate-left"></i> Restaurar Parâmetros Padrão
+            </button>
+            <span class="footer-note"><i class="fa-solid fa-bolt"></i> A projeção e todos os estados são recalculados instantaneamente a cada movimento.</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 3. COMPARISON TOOL: 1º TURNO VS 2º TURNO -->
+    <section class="comparison-section">
+      <div class="section-title-box">
+        <div class="icon-circle"><i class="fa-solid fa-code-compare"></i></div>
+        <div>
+          <h3>FERRAMENTA COMPARATIVA: 1º TURNO VS 2º TURNO</h3>
+          <p>Análise de crescimento, migração e desempenho de cada candidato em relação à votação do 1º turno de 2026</p>
+        </div>
+      </div>
+
+      <div class="comparison-cards-grid">
+        
+        <!-- CARD LULA 1T VS 2T -->
+        <div class="comp-card cand-13-border">
+          <div class="comp-card-header">
+            <h4>LULA (13)</h4>
+            <span class="badge-pt">PT</span>
+          </div>
+          <div class="comp-rows">
+            <div class="comp-row">
+              <span class="label">Votação 1º Turno (Final):</span>
+              <strong id="comp-13-1t-votes">53.879.538 (45.16%)</strong>
+            </div>
+            <div class="comp-row">
+              <span class="label">Votos Apurados Agora (2ºT):</span>
+              <strong id="comp-13-2t-votes">0 (0.00%)</strong>
+            </div>
+            <div class="comp-row highlight">
+              <span class="label">Swing Percentual (Variação):</span>
+              <strong id="comp-13-swing-pp" class="positive">+0.00 p.p.</strong>
+            </div>
+            <div class="comp-row">
+              <span class="label">Votos Faltando para Igualar 1ºT:</span>
+              <strong id="comp-13-gap-votes">53.879.538</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- PLACAR DO 1º TURNO -->
+        <div class="comp-card neutral-border">
+          <div class="comp-card-header">
+            <h4>PLACAR DO 1º TURNO (REFERÊNCIA)</h4>
+            <span class="badge-neutral">TSE Oficial</span>
+          </div>
+          <div class="comp-rows">
+            <div class="comp-row">
+              <span>Flávio Bolsonaro (22):</span>
+              <strong>56.104.503 (47.03%)</strong>
+            </div>
+            <div class="comp-row">
+              <span>Lula (13):</span>
+              <strong>53.879.538 (45.16%)</strong>
+            </div>
+            <div class="comp-row">
+              <span>Votos Outros Candidatos (3ª via):</span>
+              <strong>9.316.747 (7.81%)</strong>
+            </div>
+            <div class="comp-row highlight">
+              <span>Diferença 1º Turno:</span>
+              <strong class="cand-22-color">Flávio +2.224.965 votos (+1.87 p.p.)</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD FLÁVIO 1T VS 2T -->
+        <div class="comp-card cand-22-border">
+          <div class="comp-card-header">
+            <h4>FLÁVIO BOLSONARO (22)</h4>
+            <span class="badge-pl">PL</span>
+          </div>
+          <div class="comp-rows">
+            <div class="comp-row">
+              <span class="label">Votação 1º Turno (Final):</span>
+              <strong id="comp-22-1t-votes">56.104.503 (47.03%)</strong>
+            </div>
+            <div class="comp-row">
+              <span class="label">Votos Apurados Agora (2ºT):</span>
+              <strong id="comp-22-2t-votes">0 (0.00%)</strong>
+            </div>
+            <div class="comp-row highlight">
+              <span class="label">Swing Percentual (Variação):</span>
+              <strong id="comp-22-swing-pp" class="positive">+0.00 p.p.</strong>
+            </div>
+            <div class="comp-row">
+              <span class="label">Votos Faltando para Igualar 1ºT:</span>
+              <strong id="comp-22-gap-votes">56.104.503</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. REGIONAL BREAKDOWN (6 REGIONS) -->
+    <section class="regions-section">
+      <div class="section-title-box">
+        <div class="icon-circle"><i class="fa-solid fa-map"></i></div>
+        <div>
+          <h3>APURAÇÃO CONSOLIDADA POR REGIÃO</h3>
+          <p>Percentuais, totalização de urnas e comparativo com o 1º turno nas 5 macrorregiões do Brasil e no Exterior</p>
+        </div>
+      </div>
+
+      <div class="regions-grid" id="regions-container">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </section>
+
+    <!-- 5. INTERACTIVE MAP & STATE-BY-STATE TABLE -->
+    <section class="states-section">
+      <div class="section-title-box">
+        <div class="icon-circle"><i class="fa-solid fa-table-list"></i></div>
+        <div>
+          <h3>APURAÇÃO DETALHADA POR ESTADO (27 UFs + EXTERIOR)</h3>
+          <p>Consulte a contagem de votos, avanço de seções, swing eleitoral e projeção para cada estado brasileiro</p>
+        </div>
+      </div>
+
+      <div class="states-layout">
+        
+        <!-- INTERACTIVE SVG BRAZIL MAP -->
+        <div class="map-card">
+          <div class="map-card-header">
+            <h4><i class="fa-solid fa-earth-americas"></i> Mapa Eleitoral Interativo</h4>
+            <span class="map-hint">Passe o mouse ou clique no estado para filtrar a tabela</span>
+          </div>
+          
+          <div class="svg-map-wrapper" id="svg-map-wrapper">
+            <!-- SVG Map will be dynamically loaded/rendered here -->
+            <div id="map-tooltip" class="map-tooltip"></div>
+            <svg id="brazil-svg" viewBox="0 0 650 650" class="brazil-map-svg">
+              <!-- States paths -->
+            </svg>
+          </div>
+
+          <div class="map-legend">
+            <div class="legend-item"><span class="dot lula-strong"></span> Lula (+10%)</div>
+            <div class="legend-item"><span class="dot lula-lead"></span> Lula Líder</div>
+            <div class="legend-item"><span class="dot bolsonaro-lead"></span> Flávio Líder</div>
+            <div class="legend-item"><span class="dot bolsonaro-strong"></span> Flávio (+10%)</div>
+            <div class="legend-item"><span class="dot neutral"></span> Em Apuração / Empate</div>
+          </div>
+        </div>
+
+        <!-- STATES TABLE & CONTROLS -->
+        <div class="table-card">
+          
+          <!-- TABLE CONTROLS BAR -->
+          <div class="table-controls">
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="state-search-input" placeholder="Buscar por estado ou sigla (ex: SP, Minas)..." oninput="filterStatesTable()">
+            </div>
+
+            <div class="region-filter-pills">
+              <button class="pill active" onclick="setRegionFilter('ALL', this)">Todos</button>
+              <button class="pill" onclick="setRegionFilter('Sudeste', this)">Sudeste</button>
+              <button class="pill" onclick="setRegionFilter('Nordeste', this)">Nordeste</button>
+              <button class="pill" onclick="setRegionFilter('Sul', this)">Sul</button>
+              <button class="pill" onclick="setRegionFilter('Norte', this)">Norte</button>
+              <button class="pill" onclick="setRegionFilter('Centro-Oeste', this)">Centro-Oeste</button>
+              <button class="pill" onclick="setRegionFilter('Exterior', this)">Exterior</button>
+            </div>
+          </div>
+
+          <!-- TABLE WRAPPER -->
+          <div class="table-responsive">
+            <table class="states-table" id="states-table">
+              <thead>
+                <tr>
+                  <th onclick="sortStates('uf')">UF <i class="fa-solid fa-sort"></i></th>
+                  <th onclick="sortStates('pct_secoes')">% Apurado <i class="fa-solid fa-sort"></i></th>
+                  <th onclick="sortStates('votos_validos')">Votos Válidos <i class="fa-solid fa-sort"></i></th>
+                  <th onclick="sortStates('cand13_pct')" class="cand-13-col">Lula 13 (%) <i class="fa-solid fa-sort"></i></th>
+                  <th onclick="sortStates('cand22_pct')" class="cand-22-col">Flávio 22 (%) <i class="fa-solid fa-sort"></i></th>
+                  <th>Líder</th>
+                  <th onclick="sortStates('swing_13')">Swing vs 1ºT <i class="fa-solid fa-sort"></i></th>
+                  <th>Projeção Final UF</th>
+                </tr>
+              </thead>
+              <tbody id="states-tbody">
+                <!-- Dynamically populated by JS -->
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p><strong>TSE Eleições 2026</strong> &bull; Sistema Avançado de Apuração Presidencial & Projeções Estatísticas</p>
+        <p class="source-credit">Fonte de Dados: Tribunal Superior Eleitoral (CDN Oficial - <code>resultados.tse.jus.br</code>)</p>
+      </div>
+      <div class="footer-right">
+        <button class="btn-footer" onclick="openSettingsModal()"><i class="fa-solid fa-network-wired"></i> Status da Conexão TSE</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal-overlay" id="settings-modal" onclick="closeSettingsModal(event)">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-gear"></i> Configurações de Conexão com o TSE</h3>
+        <button class="modal-close" onclick="closeSettingsModal()">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-desc">Configure os parâmetros técnicos dos endpoints oficiais do TSE para a apuração ao vivo.</p>
+
+        <div class="form-group">
+          <label for="cfg-election-code">Código do Pleito Presidencial (TSE):</label>
+          <input type="text" id="cfg-election-code" value="6258" placeholder="Ex: 6258">
+          <small>Código oficial registrado no TSE para a Eleição Presidencial de 2026 (2º Turno).</small>
+        </div>
+
+        <div class="form-group">
+          <label for="cfg-election-cycle">Ciclo Eleitoral:</label>
+          <input type="text" id="cfg-election-cycle" value="ele2026" placeholder="Ex: ele2026">
+        </div>
+
+        <div class="form-group">
+          <label for="cfg-poll-interval">Intervalo de Consulta ao Vivo (segundos):</label>
+          <input type="number" id="cfg-poll-interval" value="15" min="5" max="60">
+          <small>Recomendado: 15 segundos para atualizar sem gerar bloqueio de CDN.</small>
+        </div>
+
+        <div class="tse-test-card">
+          <div class="test-header">
+            <span>Teste de Latência e Resposta do TSE:</span>
+            <button class="btn-test" id="btn-run-test" onclick="runTseConnectionTest()">
+              <i class="fa-solid fa-bolt"></i> Testar Conexão Agora
+            </button>
+          </div>
+          <div class="test-result-box" id="test-result-box">
+            <span>Clique no botão acima para testar o endpoint oficial.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeSettingsModal()">Fechar</button>
+        <button class="btn-primary" onclick="saveSettings()">Salvar Configurações</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

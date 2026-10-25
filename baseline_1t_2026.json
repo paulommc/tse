@@ -1,0 +1,3648 @@
+{
+  "eleicao": "6257",
+  "turno": 1,
+  "ano": 2026,
+  "brasil": {
+    "secoes_tot": 499248,
+    "secoes_ap": 499248,
+    "pct_secoes": 100.0,
+    "votos_validos": 119300788,
+    "votos_totais": 125275835,
+    "votos_brancos": 2300798,
+    "votos_nulos": 3669003,
+    "candidatos": [
+      {
+        "n": 22,
+        "nm": "FLAVIO NANTES BOLSONARO",
+        "vap": 56104503,
+        "pvap": 47.03,
+        "st": "2º turno",
+        "seq": 1
+      },
+      {
+        "n": 13,
+        "nm": "LUIZ INÁCIO LULA DA SILVA",
+        "vap": 53879538,
+        "pvap": 45.16,
+        "st": "2º turno",
+        "seq": 2
+      },
+      {
+        "n": 70,
+        "nm": "AUGUSTO JORGE CURY",
+        "vap": 3448569,
+        "pvap": 2.89,
+        "st": "Não eleito",
+        "seq": 3
+      },
+      {
+        "n": 14,
+        "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+        "vap": 2675887,
+        "pvap": 2.24,
+        "st": "Não eleito",
+        "seq": 4
+      },
+      {
+        "n": 55,
+        "nm": "RONALDO RAMOS CAIADO",
+        "vap": 2605148,
+        "pvap": 2.18,
+        "st": "Não eleito",
+        "seq": 5
+      },
+      {
+        "n": 30,
+        "nm": "ROMEU ZEMA NETO",
+        "vap": 326488,
+        "pvap": 0.27,
+        "st": "Não eleito",
+        "seq": 6
+      },
+      {
+        "n": 80,
+        "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+        "vap": 122911,
+        "pvap": 0.1,
+        "st": "Não eleito",
+        "seq": 7
+      },
+      {
+        "n": 16,
+        "nm": "HERTZ DA CONCEICAO DIAS",
+        "vap": 43103,
+        "pvap": 0.04,
+        "st": "Não eleito",
+        "seq": 8
+      },
+      {
+        "n": 27,
+        "nm": "CLARIANA ZACARKIM BARAO",
+        "vap": 40043,
+        "pvap": 0.03,
+        "st": "Não eleito",
+        "seq": 9
+      },
+      {
+        "n": 21,
+        "nm": "EDMILSON SILVA COSTA",
+        "vap": 22693,
+        "pvap": 0.02,
+        "st": "Não eleito",
+        "seq": 10
+      },
+      {
+        "n": 35,
+        "nm": "WILSON GRASSI JUNIOR",
+        "vap": 16881,
+        "pvap": 0.01,
+        "st": "Não eleito",
+        "seq": 11
+      },
+      {
+        "n": 29,
+        "nm": "RUI COSTA PIMENTA",
+        "vap": 15024,
+        "pvap": 0.01,
+        "st": "Não eleito",
+        "seq": 12
+      }
+    ]
+  },
+  "estados": {
+    "AC": {
+      "secoes_tot": 2270,
+      "secoes_ap": 2270,
+      "pct_secoes": 100.0,
+      "votos_validos": 469066,
+      "votos_totais": 488330,
+      "votos_brancos": 5579,
+      "votos_nulos": 13662,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 302807,
+          "pvap": 64.56,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 134770,
+          "pvap": 28.73,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 13523,
+          "pvap": 2.88,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 8594,
+          "pvap": 1.83,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 7980,
+          "pvap": 1.7,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 573,
+          "pvap": 0.12,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 314,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 215,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 140,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 71,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 40,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 39,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Acre",
+      "regiao": "Norte"
+    },
+    "AL": {
+      "secoes_tot": 7101,
+      "secoes_ap": 7101,
+      "pct_secoes": 100.0,
+      "votos_validos": 1818856,
+      "votos_totais": 1938428,
+      "votos_brancos": 33712,
+      "votos_nulos": 85787,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 995459,
+          "pvap": 54.73,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 735718,
+          "pvap": 40.45,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 42427,
+          "pvap": 2.33,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 26851,
+          "pvap": 1.48,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 14198,
+          "pvap": 0.78,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1345,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1168,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 636,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 431,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 267,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 246,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 110,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Alagoas",
+      "regiao": "Nordeste"
+    },
+    "AP": {
+      "secoes_tot": 1914,
+      "secoes_ap": 1914,
+      "pct_secoes": 100.0,
+      "votos_validos": 464858,
+      "votos_totais": 476562,
+      "votos_brancos": 4415,
+      "votos_nulos": 7272,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 212503,
+          "pvap": 45.71,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 212278,
+          "pvap": 45.67,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 19057,
+          "pvap": 4.1,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 11342,
+          "pvap": 2.44,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 8304,
+          "pvap": 1.79,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 508,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 341,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 229,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 132,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 62,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 53,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 49,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Amapá",
+      "regiao": "Norte"
+    },
+    "AM": {
+      "secoes_tot": 8157,
+      "secoes_ap": 8157,
+      "pct_secoes": 100.0,
+      "votos_validos": 2170763,
+      "votos_totais": 2234549,
+      "votos_brancos": 24402,
+      "votos_nulos": 39302,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1046996,
+          "pvap": 48.23,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 976764,
+          "pvap": 45.0,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 77531,
+          "pvap": 3.57,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 35411,
+          "pvap": 1.63,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 28310,
+          "pvap": 1.3,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1867,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1781,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 929,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 457,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 291,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 265,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 161,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Amazonas",
+      "regiao": "Norte"
+    },
+    "BA": {
+      "secoes_tot": 35476,
+      "secoes_ap": 35476,
+      "pct_secoes": 100.0,
+      "votos_validos": 8560291,
+      "votos_totais": 9053601,
+      "votos_brancos": 154936,
+      "votos_nulos": 338123,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 5664771,
+          "pvap": 66.17,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 2442585,
+          "pvap": 28.53,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 195451,
+          "pvap": 2.28,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 122705,
+          "pvap": 1.43,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 117518,
+          "pvap": 1.37,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 6497,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 4649,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1791,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 1676,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 1299,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 724,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 625,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Bahia",
+      "regiao": "Nordeste"
+    },
+    "CE": {
+      "secoes_tot": 23765,
+      "secoes_ap": 23765,
+      "pct_secoes": 100.0,
+      "votos_validos": 5617814,
+      "votos_totais": 5910471,
+      "votos_brancos": 103295,
+      "votos_nulos": 189185,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 3555263,
+          "pvap": 63.29,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 1756850,
+          "pvap": 31.27,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 140524,
+          "pvap": 2.5,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 107587,
+          "pvap": 1.92,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 45604,
+          "pvap": 0.81,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 4310,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 3352,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1491,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 1071,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 783,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 498,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 481,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Ceará",
+      "regiao": "Nordeste"
+    },
+    "DF": {
+      "secoes_tot": 6969,
+      "secoes_ap": 6969,
+      "pct_secoes": 100.0,
+      "votos_validos": 1772808,
+      "votos_totais": 1831396,
+      "votos_brancos": 25362,
+      "votos_nulos": 33169,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 909616,
+          "pvap": 51.31,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 675627,
+          "pvap": 38.11,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 85076,
+          "pvap": 4.8,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 46714,
+          "pvap": 2.64,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 45979,
+          "pvap": 2.59,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 4915,
+          "pvap": 0.28,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 2297,
+          "pvap": 0.13,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 828,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 716,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 382,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 334,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 324,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Distrito Federal",
+      "regiao": "Centro-Oeste"
+    },
+    "ES": {
+      "secoes_tot": 9844,
+      "secoes_ap": 9844,
+      "pct_secoes": 100.0,
+      "votos_validos": 2251078,
+      "votos_totais": 2352282,
+      "votos_brancos": 43211,
+      "votos_nulos": 57872,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 1233194,
+          "pvap": 54.78,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 850028,
+          "pvap": 37.76,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 65121,
+          "pvap": 2.89,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 53236,
+          "pvap": 2.36,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 39097,
+          "pvap": 1.74,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 5873,
+          "pvap": 0.26,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1973,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 974,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 638,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 388,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 311,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 245,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Espírito Santo",
+      "regiao": "Sudeste"
+    },
+    "GO": {
+      "secoes_tot": 15686,
+      "secoes_ap": 15686,
+      "pct_secoes": 100.0,
+      "votos_validos": 3827823,
+      "votos_totais": 3971587,
+      "votos_brancos": 45643,
+      "votos_nulos": 98014,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 2051888,
+          "pvap": 53.6,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1188880,
+          "pvap": 31.06,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 472041,
+          "pvap": 12.33,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 54105,
+          "pvap": 1.41,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 53849,
+          "pvap": 1.41,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 2672,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 2087,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 668,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 559,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 468,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 346,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 260,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Goiás",
+      "regiao": "Centro-Oeste"
+    },
+    "MA": {
+      "secoes_tot": 18093,
+      "secoes_ap": 18093,
+      "pct_secoes": 100.0,
+      "votos_validos": 4010439,
+      "votos_totais": 4160343,
+      "votos_brancos": 46315,
+      "votos_nulos": 103244,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 2566301,
+          "pvap": 63.99,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 1239040,
+          "pvap": 30.9,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 84830,
+          "pvap": 2.12,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 60387,
+          "pvap": 1.51,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 50155,
+          "pvap": 1.25,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 4584,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1795,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1459,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 895,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 475,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 307,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 211,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Maranhão",
+      "regiao": "Nordeste"
+    },
+    "MT": {
+      "secoes_tot": 8287,
+      "secoes_ap": 8287,
+      "pct_secoes": 100.0,
+      "votos_validos": 1993288,
+      "votos_totais": 2052133,
+      "votos_brancos": 20756,
+      "votos_nulos": 37994,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 1298581,
+          "pvap": 65.15,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 581681,
+          "pvap": 29.18,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 40019,
+          "pvap": 2.01,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 33170,
+          "pvap": 1.66,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 33079,
+          "pvap": 1.66,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 2424,
+          "pvap": 0.12,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 1869,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1584,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 340,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 239,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 172,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 130,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Mato Grosso",
+      "regiao": "Centro-Oeste"
+    },
+    "MS": {
+      "secoes_tot": 7106,
+      "secoes_ap": 7106,
+      "pct_secoes": 100.0,
+      "votos_validos": 1490278,
+      "votos_totais": 1541220,
+      "votos_brancos": 21270,
+      "votos_nulos": 29596,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 873351,
+          "pvap": 58.6,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 516855,
+          "pvap": 34.68,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 39148,
+          "pvap": 2.63,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 31847,
+          "pvap": 2.14,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 23291,
+          "pvap": 1.56,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 2792,
+          "pvap": 0.19,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1291,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 626,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 353,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 332,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 209,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 183,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Mato Grosso do Sul",
+      "regiao": "Centro-Oeste"
+    },
+    "MG": {
+      "secoes_tot": 52062,
+      "secoes_ap": 52062,
+      "pct_secoes": 100.0,
+      "votos_validos": 11976235,
+      "votos_totais": 12637274,
+      "votos_brancos": 268302,
+      "votos_nulos": 392176,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 5777548,
+          "pvap": 48.24,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 5188936,
+          "pvap": 43.33,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 409737,
+          "pvap": 3.42,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 247209,
+          "pvap": 2.06,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 230423,
+          "pvap": 1.92,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 98407,
+          "pvap": 0.82,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 11026,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 4085,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 3411,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 2300,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 1732,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 1421,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Minas Gerais",
+      "regiao": "Sudeste"
+    },
+    "PA": {
+      "secoes_tot": 20827,
+      "secoes_ap": 20827,
+      "pct_secoes": 100.0,
+      "votos_validos": 4863172,
+      "votos_totais": 5066504,
+      "votos_brancos": 54203,
+      "votos_nulos": 148946,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 2427237,
+          "pvap": 49.91,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 2163957,
+          "pvap": 44.5,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 125172,
+          "pvap": 2.57,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 84165,
+          "pvap": 1.73,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 51991,
+          "pvap": 1.07,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 3824,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 3064,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 1293,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1045,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 674,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 442,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 308,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Pará",
+      "regiao": "Norte"
+    },
+    "PB": {
+      "secoes_tot": 10712,
+      "secoes_ap": 10712,
+      "pct_secoes": 100.0,
+      "votos_validos": 2513747,
+      "votos_totais": 2683988,
+      "votos_brancos": 52297,
+      "votos_nulos": 117854,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1541127,
+          "pvap": 61.31,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 831377,
+          "pvap": 33.07,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 73831,
+          "pvap": 2.94,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 42247,
+          "pvap": 1.68,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 19511,
+          "pvap": 0.78,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1988,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1593,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 627,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 604,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 347,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 274,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 221,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Paraíba",
+      "regiao": "Nordeste"
+    },
+    "PR": {
+      "secoes_tot": 27142,
+      "secoes_ap": 27142,
+      "pct_secoes": 100.0,
+      "votos_validos": 6585243,
+      "votos_totais": 6841457,
+      "votos_brancos": 122499,
+      "votos_nulos": 133447,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 3945345,
+          "pvap": 59.91,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 2054597,
+          "pvap": 31.2,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 205095,
+          "pvap": 3.11,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 177434,
+          "pvap": 2.69,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 171294,
+          "pvap": 2.6,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 17172,
+          "pvap": 0.26,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 6731,
+          "pvap": 0.1,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 2445,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 2056,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 1195,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 962,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 917,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Paraná",
+      "regiao": "Sul"
+    },
+    "PE": {
+      "secoes_tot": 21418,
+      "secoes_ap": 21418,
+      "pct_secoes": 100.0,
+      "votos_validos": 5601017,
+      "votos_totais": 5911062,
+      "votos_brancos": 109491,
+      "votos_nulos": 200416,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 3553971,
+          "pvap": 63.45,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 1738043,
+          "pvap": 31.03,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 137960,
+          "pvap": 2.46,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 85865,
+          "pvap": 1.53,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 73176,
+          "pvap": 1.31,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 6060,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 2387,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1114,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 869,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 705,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 457,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 410,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Pernambuco",
+      "regiao": "Nordeste"
+    },
+    "PI": {
+      "secoes_tot": 10225,
+      "secoes_ap": 10225,
+      "pct_secoes": 100.0,
+      "votos_validos": 2146394,
+      "votos_totais": 2240883,
+      "votos_brancos": 28329,
+      "votos_nulos": 66108,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1523710,
+          "pvap": 70.99,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 517028,
+          "pvap": 24.09,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 47692,
+          "pvap": 2.22,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 32274,
+          "pvap": 1.5,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 21629,
+          "pvap": 1.01,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1357,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1099,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 504,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 443,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 319,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 193,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 146,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Piauí",
+      "regiao": "Nordeste"
+    },
+    "RJ": {
+      "secoes_tot": 37675,
+      "secoes_ap": 37675,
+      "pct_secoes": 100.0,
+      "votos_validos": 9369700,
+      "votos_totais": 9859802,
+      "votos_brancos": 201979,
+      "votos_nulos": 287736,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 4966844,
+          "pvap": 53.01,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 3693021,
+          "pvap": 39.41,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 247397,
+          "pvap": 2.64,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 211843,
+          "pvap": 2.26,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 199844,
+          "pvap": 2.13,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 21907,
+          "pvap": 0.23,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 14186,
+          "pvap": 0.15,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 4082,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 3999,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 2854,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 1930,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 1793,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Rio de Janeiro",
+      "regiao": "Sudeste"
+    },
+    "RN": {
+      "secoes_tot": 8115,
+      "secoes_ap": 8115,
+      "pct_secoes": 100.0,
+      "votos_validos": 2071898,
+      "votos_totais": 2171013,
+      "votos_brancos": 33172,
+      "votos_nulos": 65880,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1237963,
+          "pvap": 59.75,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 720493,
+          "pvap": 34.77,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 57367,
+          "pvap": 2.77,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 35261,
+          "pvap": 1.7,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 16407,
+          "pvap": 0.79,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1525,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1228,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 572,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 405,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 315,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 185,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 177,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Rio Grande do Norte",
+      "regiao": "Nordeste"
+    },
+    "RS": {
+      "secoes_tot": 27547,
+      "secoes_ap": 27547,
+      "pct_secoes": 100.0,
+      "votos_validos": 6423046,
+      "votos_totais": 6702903,
+      "votos_brancos": 148339,
+      "votos_nulos": 131265,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 3573783,
+          "pvap": 55.64,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 2294759,
+          "pvap": 35.73,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 195296,
+          "pvap": 3.04,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 167558,
+          "pvap": 2.61,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 158821,
+          "pvap": 2.47,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 18988,
+          "pvap": 0.3,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 6632,
+          "pvap": 0.1,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 2146,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 2066,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 1043,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 1031,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 923,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Rio Grande do Sul",
+      "regiao": "Sul"
+    },
+    "RO": {
+      "secoes_tot": 4698,
+      "secoes_ap": 4698,
+      "pct_secoes": 100.0,
+      "votos_validos": 968059,
+      "votos_totais": 991080,
+      "votos_brancos": 9846,
+      "votos_nulos": 13109,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 652988,
+          "pvap": 67.45,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 250667,
+          "pvap": 25.89,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 25280,
+          "pvap": 2.61,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 19187,
+          "pvap": 1.98,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 16929,
+          "pvap": 1.75,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1318,
+          "pvap": 0.14,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 843,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 356,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 174,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 160,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 97,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 60,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Rondônia",
+      "regiao": "Norte"
+    },
+    "RR": {
+      "secoes_tot": 1519,
+      "secoes_ap": 1519,
+      "pct_secoes": 100.0,
+      "votos_validos": 325545,
+      "votos_totais": 332772,
+      "votos_brancos": 2618,
+      "votos_nulos": 4595,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 231322,
+          "pvap": 71.06,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 74420,
+          "pvap": 22.86,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 8579,
+          "pvap": 2.64,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 6623,
+          "pvap": 2.03,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 3639,
+          "pvap": 1.12,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 337,
+          "pvap": 0.1,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 280,
+          "pvap": 0.09,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 168,
+          "pvap": 0.05,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 60,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 42,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 41,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 34,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Roraima",
+      "regiao": "Norte"
+    },
+    "SC": {
+      "secoes_tot": 17326,
+      "secoes_ap": 17326,
+      "pct_secoes": 100.0,
+      "votos_validos": 4500897,
+      "votos_totais": 4648159,
+      "votos_brancos": 69007,
+      "votos_nulos": 78071,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 3000020,
+          "pvap": 66.65,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 1127168,
+          "pvap": 25.04,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 134273,
+          "pvap": 2.98,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 132795,
+          "pvap": 2.95,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 79911,
+          "pvap": 1.78,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 16718,
+          "pvap": 0.37,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 5049,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 1503,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 1429,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 828,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 643,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 560,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        }
+      ],
+      "nome": "Santa Catarina",
+      "regiao": "Sul"
+    },
+    "SP": {
+      "secoes_tot": 103656,
+      "secoes_ap": 103656,
+      "pct_secoes": 100.0,
+      "votos_validos": 24882948,
+      "votos_totais": 26431992,
+      "votos_brancos": 632801,
+      "votos_nulos": 914888,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 12922023,
+          "pvap": 51.93,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 9505413,
+          "pvap": 38.2,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 892368,
+          "pvap": 3.59,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 804310,
+          "pvap": 3.23,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 579571,
+          "pvap": 2.33,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 94635,
+          "pvap": 0.38,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 42532,
+          "pvap": 0.17,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 15815,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 10563,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 6129,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 5160,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 4429,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "São Paulo",
+      "regiao": "Sudeste"
+    },
+    "SE": {
+      "secoes_tot": 5923,
+      "secoes_ap": 5923,
+      "pct_secoes": 100.0,
+      "votos_validos": 1364196,
+      "votos_totais": 1439082,
+      "votos_brancos": 24859,
+      "votos_nulos": 49970,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 856019,
+          "pvap": 62.75,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 417839,
+          "pvap": 30.63,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 38895,
+          "pvap": 2.85,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 26651,
+          "pvap": 1.95,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 21405,
+          "pvap": 1.57,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 1158,
+          "pvap": 0.08,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 991,
+          "pvap": 0.07,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 457,
+          "pvap": 0.03,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 331,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 204,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 138,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 108,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Sergipe",
+      "regiao": "Nordeste"
+    },
+    "TO": {
+      "secoes_tot": 4384,
+      "secoes_ap": 4384,
+      "pct_secoes": 100.0,
+      "votos_validos": 930447,
+      "votos_totais": 965196,
+      "votos_brancos": 8344,
+      "votos_nulos": 26377,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 469321,
+          "pvap": 50.44,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 404009,
+          "pvap": 43.42,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 22434,
+          "pvap": 2.41,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 20189,
+          "pvap": 2.17,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 12983,
+          "pvap": 1.4,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 595,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 395,
+          "pvap": 0.04,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 171,
+          "pvap": 0.02,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 117,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 101,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 67,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 65,
+          "pvap": 0.01,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Tocantins",
+      "regiao": "Norte"
+    },
+    "ZZ": {
+      "secoes_tot": 1351,
+      "secoes_ap": 1351,
+      "pct_secoes": 100.0,
+      "votos_validos": 330882,
+      "votos_totais": 341766,
+      "votos_brancos": 5816,
+      "votos_nulos": 4945,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 157387,
+          "pvap": 47.57,
+          "st": "2º turno",
+          "seq": 2
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 143900,
+          "pvap": 43.49,
+          "st": "2º turno",
+          "seq": 1
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 9734,
+          "pvap": 2.94,
+          "st": "Não eleito",
+          "seq": 3
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 8580,
+          "pvap": 2.59,
+          "st": "Não eleito",
+          "seq": 4
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 4708,
+          "pvap": 1.42,
+          "st": "Não eleito",
+          "seq": 5
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 3329,
+          "pvap": 1.01,
+          "st": "Não eleito",
+          "seq": 6
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1053,
+          "pvap": 0.32,
+          "st": "Não eleito",
+          "seq": 7
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 825,
+          "pvap": 0.25,
+          "st": "Não eleito",
+          "seq": 9
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 421,
+          "pvap": 0.13,
+          "st": "Não eleito",
+          "seq": 10
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 373,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 8
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 373,
+          "pvap": 0.11,
+          "st": "Não eleito",
+          "seq": 11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 199,
+          "pvap": 0.06,
+          "st": "Não eleito",
+          "seq": 12
+        }
+      ],
+      "nome": "Exterior",
+      "regiao": "Exterior"
+    }
+  },
+  "regioes": {
+    "Norte": {
+      "secoes_tot": 43769,
+      "secoes_ap": 43769,
+      "votos_totais": 10554993,
+      "votos_validos": 10191910,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 5009437,
+          "pvap": 49.15
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 4550602,
+          "pvap": 44.65
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 291576,
+          "pvap": 2.86
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 177691,
+          "pvap": 1.74
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 137956,
+          "pvap": 1.35
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 8031,
+          "pvap": 0.08
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 8009,
+          "pvap": 0.08
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 3361,
+          "pvap": 0.03
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 2040,
+          "pvap": 0.02
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 1460,
+          "pvap": 0.01
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 1026,
+          "pvap": 0.01
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 721,
+          "pvap": 0.01
+        }
+      ]
+    },
+    "Nordeste": {
+      "secoes_tot": 140828,
+      "secoes_ap": 140828,
+      "votos_totais": 35508871,
+      "votos_validos": 33704652,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 21494584,
+          "pvap": 63.77
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 10398973,
+          "pvap": 30.85
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 818977,
+          "pvap": 2.43
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 529395,
+          "pvap": 1.57
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 390036,
+          "pvap": 1.16
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 28647,
+          "pvap": 0.08
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 18439,
+          "pvap": 0.05
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 8259,
+          "pvap": 0.02
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 7117,
+          "pvap": 0.02
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 4714,
+          "pvap": 0.01
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 2853,
+          "pvap": 0.01
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 2658,
+          "pvap": 0.01
+        }
+      ]
+    },
+    "Centro-Oeste": {
+      "secoes_tot": 38048,
+      "secoes_ap": 38048,
+      "votos_totais": 9396336,
+      "votos_validos": 9084197,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 5133436,
+          "pvap": 56.51
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 2963043,
+          "pvap": 32.62
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 613487,
+          "pvap": 6.75
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 178995,
+          "pvap": 1.97
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 165836,
+          "pvap": 1.83
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 12803,
+          "pvap": 0.14
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 7259,
+          "pvap": 0.08
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 3770,
+          "pvap": 0.04
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 2189,
+          "pvap": 0.02
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 1373,
+          "pvap": 0.02
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 1051,
+          "pvap": 0.01
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 955,
+          "pvap": 0.01
+        }
+      ]
+    },
+    "Sudeste": {
+      "secoes_tot": 203237,
+      "secoes_ap": 203237,
+      "votos_totais": 51281350,
+      "votos_validos": 48479961,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 24899609,
+          "pvap": 51.36
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 19237398,
+          "pvap": 39.68
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 1614623,
+          "pvap": 3.33
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 1316598,
+          "pvap": 2.72
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 1048935,
+          "pvap": 2.16
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 220822,
+          "pvap": 0.46
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 69717,
+          "pvap": 0.14
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 24537,
+          "pvap": 0.05
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 19030,
+          "pvap": 0.04
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 11671,
+          "pvap": 0.02
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 9133,
+          "pvap": 0.02
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 7888,
+          "pvap": 0.02
+        }
+      ]
+    },
+    "Sul": {
+      "secoes_tot": 72015,
+      "secoes_ap": 72015,
+      "votos_totais": 18192519,
+      "votos_validos": 17509186,
+      "candidatos": [
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 10519148,
+          "pvap": 60.08
+        },
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 5476524,
+          "pvap": 31.28
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 534664,
+          "pvap": 3.05
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 477787,
+          "pvap": 2.73
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 410026,
+          "pvap": 2.34
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 52878,
+          "pvap": 0.3
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 18412,
+          "pvap": 0.11
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 5940,
+          "pvap": 0.03
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 5705,
+          "pvap": 0.03
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 3054,
+          "pvap": 0.02
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 2603,
+          "pvap": 0.01
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 2445,
+          "pvap": 0.01
+        }
+      ]
+    },
+    "Exterior": {
+      "secoes_tot": 1351,
+      "secoes_ap": 1351,
+      "votos_totais": 341766,
+      "votos_validos": 330882,
+      "candidatos": [
+        {
+          "n": 13,
+          "nm": "LUIZ INÁCIO LULA DA SILVA",
+          "vap": 157387,
+          "pvap": 47.57
+        },
+        {
+          "n": 22,
+          "nm": "FLAVIO NANTES BOLSONARO",
+          "vap": 143900,
+          "pvap": 43.49
+        },
+        {
+          "n": 70,
+          "nm": "AUGUSTO JORGE CURY",
+          "vap": 9734,
+          "pvap": 2.94
+        },
+        {
+          "n": 14,
+          "nm": "RENAN ANTONIO FERREIRA DOS SANTOS",
+          "vap": 8580,
+          "pvap": 2.59
+        },
+        {
+          "n": 55,
+          "nm": "RONALDO RAMOS CAIADO",
+          "vap": 4708,
+          "pvap": 1.42
+        },
+        {
+          "n": 30,
+          "nm": "ROMEU ZEMA NETO",
+          "vap": 3329,
+          "pvap": 1.01
+        },
+        {
+          "n": 80,
+          "nm": "SAMARA MARTINS DA SILVA FEITOSA",
+          "vap": 1053,
+          "pvap": 0.32
+        },
+        {
+          "n": 27,
+          "nm": "CLARIANA ZACARKIM BARAO",
+          "vap": 825,
+          "pvap": 0.25
+        },
+        {
+          "n": 21,
+          "nm": "EDMILSON SILVA COSTA",
+          "vap": 421,
+          "pvap": 0.13
+        },
+        {
+          "n": 16,
+          "nm": "HERTZ DA CONCEICAO DIAS",
+          "vap": 373,
+          "pvap": 0.11
+        },
+        {
+          "n": 35,
+          "nm": "WILSON GRASSI JUNIOR",
+          "vap": 373,
+          "pvap": 0.11
+        },
+        {
+          "n": 29,
+          "nm": "RUI COSTA PIMENTA",
+          "vap": 199,
+          "pvap": 0.06
+        }
+      ]
+    }
+  }
+}
